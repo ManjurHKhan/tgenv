@@ -12,11 +12,14 @@ Currently tgenv supports the following OSes
 ## Installation
 
 1. Check out tgenv into any path (here is `${HOME}/.tgenv`)
-
+### If you don't want older versions of terragrunt
   ```bash
   $ git clone https://github.com/cunymatthieu/tgenv.git ~/.tgenv
   ```
-
+### If you want any and old available versions of terragrunt
+  ```bash
+  $ git clone https://github.com/ManjurHKhan/tgenv.git ~/.tgenv
+  ```
 2. Add `~/.tgenv/bin` to your `$PATH` any way you like
 
   ```bash
